@@ -1,1 +1,1 @@
-Esta é a primeira linha do arquivo texto.txt na main.
+Conteúdo do arquivo texto.txt alterado na branch feature-1.
