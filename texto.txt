@@ -1,1 +1,1 @@
-Conteúdo do arquivo texto.txt alterado na branch main para gerar conflito.
+Alteração combinada: mantive as modificações da main e da feature-1.
