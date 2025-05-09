@@ -1,0 +1,22 @@
+Seu Nome Completo: Gabriel Domingos de Medeiros
+Comandos Git usados (em ordem cronológica):
+mkdir atividade-unidade2
+cd atividade-unidade2
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git .
+echo "Linha inicial na main" > texto.txt
+git add texto.txt
+git commit -m "feat: adiciona texto.txt com linha inicial na main"
+git checkout -b feature-1
+echo "Alteração da branch feature-1" > texto.txt
+git add texto.txt
+git commit -m "feat(feature-1): modifica texto.txt em feature-1"
+git checkout main
+echo "Alteração da branch main" > texto.txt
+git add texto.txt
+git commit -m "feat(main): modifica texto.txt em main"
+git merge feature-1
+# Conflito gerado aqui
+# (edição manual de texto.txt)
+git add texto.txt
+git commit -m "merge: resolve conflito entre main e feature-1 em texto.txt"
+git checkout -b add-comandos
